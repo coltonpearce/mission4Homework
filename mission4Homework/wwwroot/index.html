@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Colton Pearce: The Diabetic</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/R.7a91fb570a80bac29392de95768cd104?rik=zOdmKxDzH8iyfg&riu=http%3a%2f%2fsweetclipart.com%2fmultisite%2fsweetclipart%2ffiles%2fcheck_mark_green.png&ehk=WkVuU8v831fIoHeEtSVNghNAHD6i13tMHLZbdbXtCY4%3d&risl=&pid=ImgRaw&r=0">
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Colton Pearce</h1>
+    <img src="img/Biking.jpeg" width="400" height="400" />
+
+    <h2>Hopes for IS413</h2>
+    <p>
+        I didn't really come into this class with a whole lot of expectations.
+        I would like to get better at programming and development,
+        because I find satisfaction in seeing something
+        I built and being able to interact with it. I am excited to add another skill to my tool belt
+        to give myself a better chance at being successful in whatever career path I choose.
+    </p>
+
+    <h2>Career Paths</h2>
+    <ul>
+        <li>1. Product Manager</li>
+        <li>2. Project Manager</li>
+        <li>3. Data Engineer</li>
+    </ul> 
+
+    <!--This will be where I gather the input from the users-->
+    <h2>Grade Calculator:</h2>
+    <form>
+        <p>Please enter the values in percentages in the following boxes to get your final grade:</p>
+        <label>Assignments (out of 100):</label>
+        <input type ="number" id="forAssignments" /><br />
+
+        <label>Group Project (out of 100):</label>
+        <input type ="number" id="forProject" /><br />
+
+        <label>Quizzes (out of 100):</label>
+        <input type ="number" id="forQuizzes" /><br />
+
+        <label>Midterm Exam (out of 100):</label>
+        <input type ="number" id="forMidterm" /><br />
+
+        <label>Final Exam (out of 100):</label>
+        <input type ="number" id="forFinal" /><br />
+
+        <label>INTEX (out of 100):</label>
+        <input type ="number" id="forINTEX" /><br />
+
+        <input id="calculateGrade" type="button" value="Calculate Grade" />
+    </form>
+    <br />
+    <!--This is where I will print the final grade and percetage-->
+    <h2>Final Grade:</h2>
+    <p id="LetterGrade"></p>
+
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Mssion4.js"></script>
+
+</body>
+</html>
