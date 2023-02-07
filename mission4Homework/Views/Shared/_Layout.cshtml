@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Colton Pearce: The Diabetic</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/R.7a91fb570a80bac29392de95768cd104?rik=zOdmKxDzH8iyfg&riu=http%3a%2f%2fsweetclipart.com%2fmultisite%2fsweetclipart%2ffiles%2fcheck_mark_green.png&ehk=WkVuU8v831fIoHeEtSVNghNAHD6i13tMHLZbdbXtCY4%3d&risl=&pid=ImgRaw&r=0">
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <a asp-controller="View" asp-action="Index">Home</a>
+        <a asp-controller="View" asp-action="GradeCalculator">Calculate Grades</a><br />
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+
+</body>
+
+</html>
